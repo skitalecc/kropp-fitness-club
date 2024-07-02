@@ -290,7 +290,7 @@ h6 {
     font-size: 2.8em;
     line-height: 1;
     color: transparent;
-    -webkit-text-stroke: 1px var(--color-light-gray);
+    -webkit-text-stroke: 1px solid var(--color-light-gray);
     text-stroke: 1px var(--color-light-gray);
 }
 
@@ -848,7 +848,7 @@ select.input:invalid {
     padding-block: 20px;
     text-align: left;
     text-transform: uppercase;
-    columns: var(--color-light);
+    color: var(--color-light);
 }
 
 .calculate-table td {
@@ -1078,7 +1078,7 @@ select.input:invalid {
 
     .footer-main {
         padding-top: 50px;
-        backface-visibility: 30px;
+        padding-bottom: 30px;
     }
 
     .footer-subscribe {
